@@ -1,0 +1,35 @@
+*{
+    margin: 10px;
+}
+body{
+    background-color: bisque;
+    margin: 2px;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    body{
+        background-color: antiquewhite;
+    }
+    .heading{
+    text-align: center;
+}
+.image{
+    display: flex;
+    border: 1px solid black;
+    gap: 2px;
+    border-radius: 10px;
+}
+.body{
+    border: 1px solid black;
+    padding: 10px;
+    gap: 20px;
+    border-top: 3px;
+    border-radius: 10px;
+}
+}
